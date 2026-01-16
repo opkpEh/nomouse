@@ -46,12 +46,7 @@ document.addEventListener("keydown", (e) => {
   }
 
   if (key === "c") {
-    const selectedText = window.getSelection().toString();
-
-    if (selectedText) {
       navigator.clipboard.writeText(window.location.href);
-    }
-
-    e.preventDefault();
+      e.preventDefault();
   }
-}
+});

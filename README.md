@@ -23,3 +23,5 @@ To implement :
 | **L**   | Move text selection forward  |
 | **H**   | Move text selection backward |
 | **P**   | Press selected button        |
+
+Add a numbering system for the urls
