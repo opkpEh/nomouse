@@ -10,6 +10,8 @@
 
 To implement :
 
+| Key     | What it does                 |
+| ------- | ---------------------------- |
 | **S**   | Jump to search bar           |
 | **F**   | Open browser “Find in page”  |
 | **L**   | Move text selection forward  |
