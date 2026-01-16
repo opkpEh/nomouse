@@ -1,3 +1,9 @@
+# About
+NoMouse is a keyboard-driven Chrome extension designed to reduce reliance on the mouse while browsing.
+
+
+## Shortcuts
+
 | Key     | What it does                 |
 | ------- | ---------------------------- |
 | **1–5** | Open 1st → 5th Google result |
