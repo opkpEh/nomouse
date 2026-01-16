@@ -1,20 +1,23 @@
 {
   "manifest_version": 3,
-  "name": "no mouse",
-  "version": "1.0.0",
-  "description": "to keep your hands on keyboard",
-  "permissions": [],
-  "action":{
-    "default_popup": "src/popup/index.html"
-  },
+  "name": "NoMouse",
+  "version": "1.0",
+
+  "permissions": ["tabs"],
+
   "background": {
     "service_worker": "src/background/index.js",
     "type": "module"
   },
-  "content_scripts":[
+
+  "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js":["src/content/index.js"]
+      "js": ["src/content/index.js"]
     }
-  ]
+  ],
+
+  "action": {
+    "default_popup": "src/popup/index.html"
+  }
 }
