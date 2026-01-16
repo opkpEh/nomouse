@@ -3,7 +3,7 @@
   "name": "NoMouse",
   "version": "1.0",
 
-  "permissions": ["tabs"],
+  "permissions": ["tabs", "clipboardWrite"],
 
   "background": {
     "service_worker": "src/background/index.js",
